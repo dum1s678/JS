@@ -88,13 +88,7 @@ function calculateTicketPrice({
   }
   basePrice = Math.round(basePrice * 100) / 100
   return basePrice
-  
-  
-  
-  
-  
-  
-  
+
   return undefined;
 }
 
@@ -115,7 +109,7 @@ function runTest(input, expected) {
 
     if (Object.is(actual, expected)) {
       passed += 1;
-      //console.log(`✅ ${name}`);
+      console.log(`✅ ${name}`);
     } else {
       failed += 1;
       console.error(`❌ ${name}`);
